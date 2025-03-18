@@ -1,5 +1,7 @@
 import ProjectCard from "../../components/ProjectCard"
 import ProjectsCategorySection from "./ProjectsCategorySection"
+import arkanoidImg from "../../assets/projects/arkanoid/arkanoid-main.png"
+import dbzImg from "../../assets/projects/dbz/dbz-main.png"
 
 
 const GamesSection = () => {
@@ -13,7 +15,7 @@ const GamesSection = () => {
                     title="Arkanoid" 
                     description="Built an arkanoid game using flat JavaScript, CSS, and HTML. With levels and power ups." 
                     technologies={["JavaScript", "CSS", "HTML"]}
-                    image="/src/assets/projects/arkanoid/arkanoid-main.png"
+                    image={arkanoidImg}
                     animation="fade-up"
                     delay={100}
                     link="https://github.com/JuanManuelSakkal/arkanoid-rush"
@@ -23,7 +25,7 @@ const GamesSection = () => {
                     title="Dbz Cell Invasion"
                     description="A Dragon Ball game where you fight agains hordes of Cells. As you beat them you gain experience to cast powers and transform up to ssj4"
                     technologies={["JavaScript", "CSS", "HTML"]}
-                    image="/src/assets/projects/dbz/dbz-main.png"
+                    image={dbzImg}
                     animation="fade-up"
                     delay={200}
                     link="https://github.com/JuanManuelSakkal/dbz-invasion"

@@ -1,3 +1,4 @@
+import wppImg from '/src/assets/wpp-icon.png'
 const FooterSection = () => {
     return (
         <footer className="py-12 bg-gray-900">
@@ -13,7 +14,7 @@ const FooterSection = () => {
                     <a href="https://api.whatsapp.com/send?phone=541164821702" 
                         target="_blank" 
                         className="text-gray-300 hover:text-green-400 transition-colors grayscale hover:grayscale-0"> Chat with me!
-                    <img  src="/src/assets/wpp-icon.png" className="ml-1 w-6 inline" /></a>
+                    <img  src={wppImg} className="ml-1 w-6 inline" /></a>
 
 
                 </p>

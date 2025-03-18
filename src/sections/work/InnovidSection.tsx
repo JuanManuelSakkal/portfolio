@@ -1,12 +1,12 @@
 import JobInfo from "../../components/JobInfo"
+import innovidLogo from "/src/assets/work/innovid-logo.png"
 
-export const INNOVID_LOGO = '/src/assets/work/innovid-logo.png'
 const InnovidSection = () => {
     return (
         <JobInfo 
             logo={<img 
                 className="w-full" 
-                src={INNOVID_LOGO} alt="" />}
+                src={innovidLogo} alt="" />}
             title="Innovid - Software Engineer" 
             description="4 years, from 2021 to 2024"
         > 

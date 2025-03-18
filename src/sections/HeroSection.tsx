@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import heroPhoto from '/src/assets/hero-photo.jpg'
 
 const HeroSection = () => {
     function TypewriterText({ text }: { text: string }) {
@@ -35,7 +36,7 @@ const HeroSection = () => {
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
                 <div className="w-64 h-64 rounded-full border-4 border-blue-400 drop-shadow-[0_0px_30px_rgba(255,255,255,0.35)]" data-aos="fade-right">
                     <img
-                    src="src/assets/hero-photo.jpg"
+                    src={heroPhoto}
                     alt="Juan Manuel Sakkal"
                     className="w-full h-full object-cover rounded-full"
                     />

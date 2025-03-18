@@ -1,12 +1,12 @@
 import JobInfo from "../../components/JobInfo"
+import tdiLogo from "/src/assets/work/tdi-logo.svg"
 
-export const TDI_LOGO = '/src/assets/work/tdi-logo.svg'
 const TDISection = () => {
     return (
         <JobInfo 
             logo={<img 
                 className="w-full" 
-                src={TDI_LOGO} alt="" />}
+                src={tdiLogo} alt="" />}
             title="TDI- Fullstack Developer" 
             description="3 years, from 2018 to 2021"
         > 

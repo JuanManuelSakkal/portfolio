@@ -1,12 +1,12 @@
 import JobInfo from "../../components/JobInfo"
+import ngLogo from "/src/assets/work/ng-logo.png"
 
-export const NG_LOGO = '/src/assets/work/ng-logo.png'
 const NGSection = () => {
     return (
         <JobInfo 
             logo={<img 
                 className="max-w-[250px] w-full" 
-                src={NG_LOGO} alt="" />}
+                src={ngLogo} alt="" />}
             title="NG - IT Support" 
             description="1 year, from 2017 to 2018"
         > 

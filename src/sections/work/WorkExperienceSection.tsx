@@ -2,9 +2,9 @@ import { useEffect, useState } from "react"
 import InnovidSection from "./InnovidSection"
 import TDISection from "./TDISection"
 import NGSection from "./NGSection"
-import { INNOVID_LOGO } from "./InnovidSection"
-import { TDI_LOGO } from "./TDISection"
-import { NG_LOGO } from "./NGSection"
+import innovidLogo from "/src/assets/work/innovid-logo.png"
+import tdiLogo from "/src/assets/work/tdi-logo.svg"
+import ngLogo from "/src/assets/work/ng-logo.png"
 
 enum Job {
     INNOVID = "Innovid",
@@ -17,7 +17,7 @@ const WorkExperienceSection = () => {
     const [jobSection, setJobSection] = useState(<InnovidSection />)
 
     const jobs = [Job.INNOVID, Job.TDI, Job.NG]
-    const logos = [INNOVID_LOGO, TDI_LOGO, NG_LOGO]
+    const logos = [innovidLogo, tdiLogo, ngLogo]
 
     useEffect(() => {
         switch (selectedJob) {
