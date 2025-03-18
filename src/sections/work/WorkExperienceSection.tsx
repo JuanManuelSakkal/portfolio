@@ -38,7 +38,7 @@ const WorkExperienceSection = () => {
             <h1 className="text-3xl md:text-5xl font-bold mb-12 text-center" data-aos="fade-up">Work Experience</h1>
             <div className="flex flex-row min-h-[300px]">
                 {jobSection}
-                <div className="flex md:w-1/5 justify-end pr-20 select-none">
+                <div className="hidden md:flex md:w-1/5 justify-end pr-20 select-none">
                     <ul className="flex flex-col justify-between" data-aos="fade-right" data-aos-delay={300}>
                         {jobs.map((job, index) => (
                             <li key={index} 
